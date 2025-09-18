@@ -23,7 +23,7 @@ import (
 	// embed allows embedding files
 	_ "embed"
 
-	provShim "github.com/cloudflare/terraform-provider-cloudflare/shim"
+	provShim "github.com/webwarrior-ws/terraform-provider-cloudflare/shim"
 
 	pfbridge "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/pf/tfbridge"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
