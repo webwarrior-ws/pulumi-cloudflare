@@ -1,4 +1,4 @@
 [submodule "upstream"]
 	path = upstream
-	url = https://github.com/cloudflare/terraform-provider-cloudflare.git
+	url = https://github.com/webwarrior-ws/terraform-provider-cloudflare.git
 	ignore = dirty

@@ -5,14 +5,14 @@ go 1.23.11
 toolchain go1.24.6
 
 require (
-	github.com/webwarrior-ws/terraform-provider-cloudflare v0.0.0-20250918112755-08ad3f3c29f9
+	github.com/webwarrior-ws/terraform-provider-cloudflare v0.0.0-20250922094417-4a1ba32f0cce
 	github.com/pulumi/providertest v0.3.0
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.114.0
 	github.com/pulumi/pulumi/sdk/v3 v3.190.0
 	github.com/stretchr/testify v1.10.0
 )
 
-//replace github.com/webwarrior-ws/terraform-provider-cloudflare => ../upstream
+replace github.com/webwarrior-ws/terraform-provider-cloudflare => ../upstream
 
 require (
 	cloud.google.com/go v0.112.1 // indirect

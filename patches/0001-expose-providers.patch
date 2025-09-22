@@ -15,7 +15,7 @@ index 000000000..5f45ebd86
 +import (
 +	"github.com/hashicorp/terraform-plugin-framework/provider"
 +
-+	"github.com/cloudflare/terraform-provider-cloudflare/internal"
++	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal"
 +)
 +
 +
